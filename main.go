@@ -1,0 +1,18 @@
+package main
+
+import (
+	"log"
+)
+
+func main() {
+	cfg := mustLoadConfig()
+	store := newStore()
+	analytics := newAnalyticsEngine(store)
+	srv := newServer(cfg, store, analytics)
+
+	log.Printf("go-url-shortener v%s starting on :%s", cfg.Version, cfg.Port)
+	if err := srv.run(); err != nil {
+		log.Fatal(err)
+	}
+}
+// v0-0
