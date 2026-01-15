@@ -87,3 +87,4 @@ func (s *Store) Count() int {
 	defer s.mu.RUnlock()
 	return len(s.links)
 }
+// v2-0
