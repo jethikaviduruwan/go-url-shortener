@@ -72,3 +72,4 @@ func (a *AnalyticsEngine) TotalClicks() int64 {
 	defer a.mu.RUnlock()
 	return int64(len(a.events))
 }
+// v3-1
