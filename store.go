@@ -88,3 +88,4 @@ func (s *Store) Count() int {
 	return len(s.links)
 }
 // v2-0
+// v6-0
