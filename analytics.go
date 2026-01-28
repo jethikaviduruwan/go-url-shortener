@@ -73,3 +73,4 @@ func (a *AnalyticsEngine) TotalClicks() int64 {
 	return int64(len(a.events))
 }
 // v3-1
+// v7-0
