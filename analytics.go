@@ -75,3 +75,4 @@ func (a *AnalyticsEngine) TotalClicks() int64 {
 // v3-1
 // v7-0
 // v10-1
+// v16-0
