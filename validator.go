@@ -50,3 +50,4 @@ func SanitizeURL(raw string) string {
 // v8-0
 // v12-0
 // v17-1
+// v24-0
