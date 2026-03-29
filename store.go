@@ -93,3 +93,4 @@ func (s *Store) Count() int {
 // v14-1
 // v21-0
 // v27-0
+// v32-1
